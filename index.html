@@ -16,7 +16,7 @@
   
   <div id="app">
     <div class="container d-flex justify-content-center align-items-center vh-100">
-      <div v-if="emails.length > 0" class="card" style="width: 18rem;">
+      <div v-if="emails.length == 10" class="card" style="width: 18rem;">
         <ul class="list-group list-group-flush">
           <li v-for="(email) in emails" class="list-group-item">{{email}}</li>
         </ul>
